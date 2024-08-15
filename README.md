@@ -2,7 +2,6 @@
 
 A secure and high-performance starting point for building B2B SaaS web applications.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/auth0-developer-hub/auth0-b2b-saas-starter&repository-name=auth0-saas-starter&external-id=b2b-saas-starter-template&integration-ids=oac_7V7TGP5JUHCpSncpiy3XWwL0)
 
 ## Overview
 
