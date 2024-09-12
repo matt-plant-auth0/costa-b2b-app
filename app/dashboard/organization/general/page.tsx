@@ -9,6 +9,8 @@ export default async function GeneralSettings() {
     id: session!.user.org_id,
   })
 
+  console.log(org);
+
   return (
     <div className="space-y-2">
       <PageHeader
