@@ -13,14 +13,14 @@ import {
 export default async function DashboardHome() {
   return (
     <div className="flex flex-1 flex-grow flex-col gap-4 lg:gap-6">
-      <div className="flex flex-1 flex-col items-center justify-center rounded-3xl border bg-field shadow-sm">
+      <div className="flex flex-1 flex-col gap-4 items-center justify-center rounded-3xl border bg-field shadow-sm">
         <div className="flex max-w-[500px] flex-col items-center gap-1 text-center">
           <h3 className="text-2xl font-bold tracking-tight">
             Welcome to the MyCosta Portal
           </h3>
         </div>
         <div className="grid grid-flow-row-dense grid-cols-3">
-          <Card className="mx-auto max-w-sm">
+          <Card className="max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Reports</span>
@@ -37,7 +37,7 @@ export default async function DashboardHome() {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="mx-auto max-w-sm">
+          <Card className="max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Profisee</span>
@@ -54,7 +54,7 @@ export default async function DashboardHome() {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="mx-auto max-w-sm">
+          <Card className="max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Settings</span>
