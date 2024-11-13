@@ -36,6 +36,40 @@ export default async function DashboardHome() {
             </Link>
           </CardFooter>
         </Card>
+        <Card className="mx-auto max-w-sm">
+          <CardHeader>
+            <CardTitle className="grid gap-2">
+              <span>Settings</span>
+            </CardTitle>
+            <CardDescription>
+              Manage your organization settings & members
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Link href="/dashboard/organization/general" className="w-full">
+              <Button className="w-full">
+                Navigate to Settings
+              </Button>
+            </Link>
+          </CardFooter>
+        </Card>
+        <Card className="mx-auto max-w-sm">
+          <CardHeader>
+            <CardTitle className="grid gap-2">
+              <span>Settings</span>
+            </CardTitle>
+            <CardDescription>
+              Manage your organization settings & members
+            </CardDescription>
+          </CardHeader>
+          <CardFooter>
+            <Link href="/dashboard/organization/general" className="w-full">
+              <Button className="w-full">
+                Navigate to Settings
+              </Button>
+            </Link>
+          </CardFooter>
+        </Card>
       </div>
     </div>
   )
