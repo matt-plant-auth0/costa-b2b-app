@@ -14,12 +14,12 @@ export default async function DashboardHome() {
   return (
     <div className="flex flex-1 flex-grow flex-col gap-4 lg:gap-6">
       <div className="flex flex-1 items-center justify-center rounded-3xl border bg-field shadow-sm">
+        <div className="flex max-w-[500px] flex-col items-center gap-1 text-center">
+          <h3 className="text-2xl font-bold tracking-tight">
+            Welcome to the MyCosta Portal
+          </h3>
+        </div>
         <div className="grid grid-flow-row-dense grid-cols-3">
-          <div className="flex max-w-[500px] flex-col items-center gap-1 text-center">
-            <h3 className="text-2xl font-bold tracking-tight">
-              Welcome to the MyCosta Portal
-            </h3>
-          </div>
           <Card className="mx-auto max-w-sm">
             <CardHeader>
               <CardTitle className="grid gap-2">
