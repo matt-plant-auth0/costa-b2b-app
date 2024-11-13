@@ -20,7 +20,7 @@ export default async function DashboardHome() {
           </h3>
         </div>
         <div className="grid grid-flow-row-dense grid-cols-3 gap-12">
-          <Card className="max-w-[300px]">
+          <Card className="bg-[#6D1F37] text-white max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Reports</span>
@@ -38,7 +38,7 @@ export default async function DashboardHome() {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="max-w-[300px]">
+          <Card className="bg-[#6D1F37] text-white max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Profisee</span>
@@ -56,7 +56,7 @@ export default async function DashboardHome() {
               </Link>
             </CardFooter>
           </Card>
-          <Card className="max-w-[300px]">
+          <Card className="bg-[#6D1F37] text-white max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
                 <span>Settings</span>
