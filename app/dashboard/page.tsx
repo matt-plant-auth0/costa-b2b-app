@@ -13,7 +13,7 @@ import {
 export default async function DashboardHome() {
   return (
     <div className="flex flex-1 flex-grow flex-col gap-4 lg:gap-6">
-      <div className="flex flex-1 items-center justify-center rounded-3xl border bg-field shadow-sm">
+      <div className="flex flex-1 flex-col items-center justify-center rounded-3xl border bg-field shadow-sm">
         <div className="flex max-w-[500px] flex-col items-center gap-1 text-center">
           <h3 className="text-2xl font-bold tracking-tight">
             Welcome to the MyCosta Portal
@@ -23,16 +23,16 @@ export default async function DashboardHome() {
           <Card className="mx-auto max-w-sm">
             <CardHeader>
               <CardTitle className="grid gap-2">
-                <span>Settings</span>
+                <span>Reports</span>
               </CardTitle>
               <CardDescription>
-                Manage your organization settings & members
+                View your buying history and reports
               </CardDescription>
             </CardHeader>
             <CardFooter>
               <Link href="/dashboard/organization/general" className="w-full">
                 <Button className="w-full">
-                  Navigate to Settings
+                  Navigate to Reports
                 </Button>
               </Link>
             </CardFooter>
@@ -40,16 +40,16 @@ export default async function DashboardHome() {
           <Card className="mx-auto max-w-sm">
             <CardHeader>
               <CardTitle className="grid gap-2">
-                <span>Settings</span>
+                <span>Profisee</span>
               </CardTitle>
               <CardDescription>
-                Manage your organization settings & members
+                Access your data in Profisee
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Link href="/dashboard/organization/general" className="w-full">
+              <Link href="https://profisee.com/platform/" className="w-full">
                 <Button className="w-full">
-                  Navigate to Settings
+                  Navigate to Profisee
                 </Button>
               </Link>
             </CardFooter>
