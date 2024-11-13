@@ -60,7 +60,7 @@ export default async function DashboardHome() {
                 <span>Settings</span>
               </CardTitle>
               <CardDescription>
-                Manage your organization settings & members
+                Manage your organization settings
               </CardDescription>
             </CardHeader>
             <CardFooter>
