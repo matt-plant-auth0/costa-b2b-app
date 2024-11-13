@@ -19,7 +19,7 @@ export default async function DashboardHome() {
             Welcome to the MyCosta Portal
           </h3>
         </div>
-        <div className="grid grid-flow-row-dense grid-cols-3">
+        <div className="grid grid-flow-row-dense grid-cols-3 gap-4">
           <Card className="max-w-[300px]">
             <CardHeader>
               <CardTitle className="grid gap-2">
