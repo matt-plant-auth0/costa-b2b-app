@@ -30,7 +30,7 @@ export default async function DashboardHome() {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Link href="/dashboard/organization/general" className="w-full">
+              <Link target="_blank" href="https://okta.com" className="w-full">
                 <Button className="w-full">
                   Navigate to Reports
                   <OpenInNewWindowIcon className="ml-2 size-4" />
@@ -48,7 +48,7 @@ export default async function DashboardHome() {
               </CardDescription>
             </CardHeader>
             <CardFooter>
-              <Link href="https://profisee.com/platform/" className="w-full">
+              <Link target="_blank" href="https://profisee.com/platform/" className="w-full">
                 <Button className="w-full">
                   Navigate to Profisee
                   <OpenInNewWindowIcon className="ml-2 size-4" />
