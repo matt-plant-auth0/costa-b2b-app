@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { ArrowRightIcon } from "@radix-ui/react-icons"
+import { OpenInNewWindowIcon } from "@radix-ui/react-icons"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -33,6 +33,7 @@ export default async function DashboardHome() {
               <Link href="/dashboard/organization/general" className="w-full">
                 <Button className="w-full">
                   Navigate to Reports
+                  <OpenInNewWindowIcon className="ml-2 size-4" />
                 </Button>
               </Link>
             </CardFooter>
@@ -50,6 +51,7 @@ export default async function DashboardHome() {
               <Link href="https://profisee.com/platform/" className="w-full">
                 <Button className="w-full">
                   Navigate to Profisee
+                  <OpenInNewWindowIcon className="ml-2 size-4" />
                 </Button>
               </Link>
             </CardFooter>
