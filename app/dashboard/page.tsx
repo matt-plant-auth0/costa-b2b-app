@@ -1,8 +1,6 @@
-"use client"
-
 import Link from "next/link"
 import { OpenInNewWindowIcon } from "@radix-ui/react-icons"
-import { useUser } from '@auth0/nextjs-auth0/client';
+import { appClient } from "@/lib/auth0"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -13,10 +11,10 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-export function DashboardHome() {
-  const { user } = useUser()
+export default async function DashboardHome() {
+  const session = await appClient.getSession()
 
-  console.log(user);
+  console.log(session?.user);
 
   return (
     <div className="flex flex-1 flex-grow flex-col gap-4 lg:gap-6">
