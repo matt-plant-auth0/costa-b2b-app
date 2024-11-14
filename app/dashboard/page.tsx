@@ -24,7 +24,7 @@ export default async function DashboardHome() {
             Welcome to the MyCosta Portal
           </h3>
         </div>
-        <div className="grid grid-flow-row-dense grid-cols-3 gap-12">
+        <div className="grid grid-flow-col auto-cols-max gap-12">
           {!isAdmin && (
             <>
               <Card className="bg-[#6D1F37] text-white max-w-[300px]">
