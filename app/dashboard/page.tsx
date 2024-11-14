@@ -13,9 +13,9 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-export default async function DashboardHome() {
+export function DashboardHome() {
   const { user } = useUser()
-  
+
   console.log(user);
 
   return (
