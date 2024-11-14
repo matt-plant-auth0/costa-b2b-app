@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { OpenInNewWindowIcon } from "@radix-ui/react-icons"
+import { useUser } from '@auth0/nextjs-auth0/client';
 
 import { Button } from "@/components/ui/button"
 import {
@@ -11,6 +12,10 @@ import {
 } from "@/components/ui/card"
 
 export default async function DashboardHome() {
+  const { user } = useUser();
+
+  console.log(user);
+  
   return (
     <div className="flex flex-1 flex-grow flex-col gap-4 lg:gap-6">
       <div className="flex flex-1 flex-col gap-4 items-center justify-center rounded-3xl border bg-field shadow-sm">
